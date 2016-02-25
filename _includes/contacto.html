@@ -6,9 +6,15 @@
 			</div>
 			<div class="col-md-8">
 				<div id="external-links"{% if include.blog == true %} class="blog" {% endif %}>
-					<a href="{{ site.blog }}" title="Blog" target="_blank"><img src="{{ site.url }}/images/btn-blog.png" alt="Blog" /></a>
-					<a href="podcast" title="Podcast" target="_blank"><img src="{{ site.url }}/images/btn-podcast.png" alt="Podcast" /></a>
-					<a href="{{ site.video }}" title="Video" target="_blank"><img src="{{ site.url }}/images/btn-video.png" alt="Video" /></a>
+					<a href="/blog" title="Blog" target="_blank">
+						<img src="{{ site.url }}/images/btn-blog.png" alt="Blog" />
+					</a>
+					<a href="/podcast" title="Podcast" target="_blank">
+						<img src="{{ site.url }}/images/btn-podcast.png" alt="Podcast" />
+					</a>
+					<a href="{{ site.video }}" title="Video" target="_blank">
+						<img src="{{ site.url }}/images/btn-video.png" alt="Video" />
+					</a>
 				</div>
 			</div>
 		</div>
@@ -24,7 +30,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="footer-logo text-center">
-							<img src="{{ site.url }}/images/logo-bottom.png" alt="{{ site.title }}" class="img-responsive"/>
+							<img src="/images/logo-bottom.png" alt="{{ site.title }}" class="img-responsive"/>
 						</div>
 					</div>
 					<div class="col-sm-6 no-padding-right">

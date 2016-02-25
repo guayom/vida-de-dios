@@ -6,7 +6,9 @@ title: Blog
 	<div class="hero">
     <div class="container text-center">
     	<div class="row text-center">
-				<img src="/images/blog/{{ post.full-image }}" class="img-responsive img-first-post" alt="{{ post.title }}" />
+    		<a href="{{ post.url }}">
+					<img src="/images/blog/{{ post.full-image }}" class="img-responsive img-first-post" alt="{{ post.title }}" />
+				</a>
 			</div>
       <h1>{{ post.title }}</h1>
       <a href="{{ post.url }}" class="btn btn-border">Leer Más...</a>
