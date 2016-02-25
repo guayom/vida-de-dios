@@ -1,0 +1,25 @@
+<div id="manifiesto" class="section">
+	<div class="container">
+		<div class="row">
+			<div id="manifiesto-content" class="col-xs-12">
+				<div class="text-dark-red">
+					<h2>Manifiesto</h2>
+					<p>Creemos que esto antes que un proyecto es una pasión.</br>
+ 					Una pasión con valores honestos que nos mueven a inspirar y tocar personas a través del poder de las palabras. 
+ 					Que nos hace volver a confiar en los corazones reales que tienen como misión cambiar vidas. 
+ 					Creemos en que las cosas buenas se comparten, es por eso que compartimos nuestro manifiesto.</p> 
+				</div>
+				<div class="text-danger">
+					<ol class="list-unstyled">
+						{% for rubro in site.data.manifiesto %}
+							<li{% if forloop.index > 6 %} class="short" {% endif %}>
+								<h3>{{ forloop.index }}. {{ rubro.title }}</h3>
+								<p>{{ rubro.description }}</p>
+							</li>
+						{% endfor %}
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

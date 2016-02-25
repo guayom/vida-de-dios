@@ -1,0 +1,23 @@
+# Site settings
+title: Vida de Dios en la Empresa
+email: info@vidadediosenlaempresa.com
+description: "Ver la empresa desde un punto de vista integral, tomando en cuenta la parte técnica y con un nuevo enfoque en el rol de las personas."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vidadediosenlaempresa.com" # the base hostname & protocol for your site
+
+#redes sociales
+facebook: vidadediosenlaempresa
+instagram:  vidadediosenlaempresa
+youtube: vidadediosenlaempresa
+
+#external links
+blog: "blog.html"
+podcast: "vidadediosenlaempresa"
+video: "#"
+
+# Build settings
+markdown: kramdown
+
+#Include SASS Folder
+sass:
+    sass_dir: _sass

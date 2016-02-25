@@ -1,0 +1,56 @@
+<div id="contacto" class="section brand-primary contacto">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 foot-image-container">
+				<img src="{{ site.url }}/images/carlos-cordero-bottom.jpg" alt="Carlos Cordero" class="img-responsive" />
+			</div>
+			<div class="col-md-8">
+				<div id="external-links"{% if include.blog == true %} class="blog" {% endif %}>
+					<a href="{{ site.blog }}" title="Blog" target="_blank"><img src="{{ site.url }}/images/btn-blog.png" alt="Blog" /></a>
+					<a href="podcast" title="Podcast" target="_blank"><img src="{{ site.url }}/images/btn-podcast.png" alt="Podcast" /></a>
+					<a href="{{ site.video }}" title="Video" target="_blank"><img src="{{ site.url }}/images/btn-video.png" alt="Video" /></a>
+				</div>
+			</div>
+		</div>
+		{% if include.blog != true %}
+			<img src="{{ site.url }}/images/carlos-cordero-3.jpg" alt="Carlos Cordero"  class="img-contacto"/>
+		{% endif %}
+	</div>
+</div>
+<div id="redes" class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 col-md-offset-5">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="footer-logo text-center">
+							<img src="{{ site.url }}/images/logo-bottom.png" alt="{{ site.title }}" class="img-responsive"/>
+						</div>
+					</div>
+					<div class="col-sm-6 no-padding-right">
+						<div class="footer-contacts">
+							<h4><strong>Carlos Cordero</strong></h4>
+							<ul class="list-unstyled">
+								<li>
+									<a href="{{ site.url }}" title="Sitio Web" class="text-danger"><b>vida</b>de<b>dios</b>enla<b>empresa</b>.com</a>
+								</li>
+								<li>
+									<a href="mailto:{{ site.email }}" title="Sitio Web" class="text-danger"><b>info</b>@<b>vida</b>de<b>dios</b>enla<b>empresa</b></a>
+								</li>
+								<li>
+									<a href="https://facebook.com/{{ site.facebook }}" title="Vida de Dios en la Empresa en Facebook"  target="_blank"><i class="fa fa-facebook"></i> / <b>vida</b>de<b>dios</b>enla<b>empresa</b></a>
+								</li>
+								<li>
+									<a href="http://instagram.com/{{ site.instagram }}" title="Vida de Dios en la Empresa en Instagram"  target="_blank"><i class="fa fa-instagram" ></i> @<b>vida</b>de<b>dios</b>enla<b>empresa</b></a>
+								</li>
+								<li>
+									<a href="http://youtube.com/user/{{ site.facebook }}" title="Vida de Dios en la Empresa en Youtube"  target="_blank"><i class="fa fa-youtube"></i> /<b>vida</b>de<b>dios</b>enla<b>empresa</b></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

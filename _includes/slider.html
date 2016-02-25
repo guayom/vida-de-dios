@@ -1,0 +1,21 @@
+<div class="slider" role="listbox">
+  {% for i in (1..5) %}
+    <div>
+      <img src="/images/slider/cintillo-0{{ i }}.jpg" />
+    </div>
+  {% endfor %}
+</div>    
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    centerPadding: '0px',
+    variableWidth:true, 
+    arrows:true,
+    dots: true,
+  });
+});
+</script>
