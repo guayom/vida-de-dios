@@ -1,13 +1,13 @@
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="{% if page.title %}{{ page.title | strip_html }}{% else %}{{ site.title }}{% endif %}">
 <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
-<meta itemprop="image" content="{{ site.url }}/images/{{ page.full-image }}">
+<meta itemprop="image" content="{{ site.url }}/images/blog/{{ page.full-image }}">
 
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
 <meta name="twitter:title" content="vidadediosenlaempresa.com">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image" content="{{ site.url }}/images/{{ page.full-image }}">
+<meta name="twitter:image" content="{{ site.url }}/images/blog/{{ page.full-image }}">
 
 <!--Facebook MetaData -->
 <meta property="og:site_name" content="{{ site.title }}"/>
@@ -16,11 +16,11 @@
 {% if page.layout == 'blog' %}
   <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="{{ site.url }}/images/{{ page.full-image }}" />
+  <meta property="og:image" content="{{ site.url }}/images/blog/{{ page.full-image }}" />
 {% else %}
   <meta property="og:type" content="website" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{{ site.url }}/images/{{ page.full-image }}" />
+  <meta property="og:image" content="{{ site.url }}/images/blog/{{ page.full-image }}" />
 {% endif %}
 <meta property="og:locale" content="es_ES" />
 <meta property="article:author" content="http://facebook.com/vidadediosenlaempresa" />
