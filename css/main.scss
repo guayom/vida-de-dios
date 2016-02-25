@@ -479,3 +479,38 @@ article{
 		color: #fff;
 	}
 }
+
+//Social Share
+//----------------------------
+.share-page {
+		text-align: center;
+		margin-bottom: 20px;	
+
+    a {
+        display: inline-block;
+			  -moz-border-radius: 50%;
+			  -webkit-border-radius: 50%;
+			  border-radius: 50%;
+
+			  background-color: #3b5998;
+
+			  width: 25px;
+			  height: 25px;
+			  line-height: 25px;
+			  margin: 0 5px;
+			  color: #fff;
+
+        &:hover {
+            text-decoration: none;
+            border: 0;
+        }
+
+        &.tw{
+         background-color: #00aced;
+        }
+
+        &.gp{
+         background-color: #cb2027;
+        }
+    }
+}
