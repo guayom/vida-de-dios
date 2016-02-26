@@ -1,10 +1,14 @@
 <div id="contacto" class="section brand-primary contacto">
 	<div class="container">
 		<div class="row">
+			{% if include.blog == true %}
+			<div class="col-xs-12">
+			{% else %}
 			<div class="col-xs-4 foot-image-container">
 				<img src="{{ site.url }}/images/carlos-cordero-bottom.jpg" alt="Carlos Cordero" class="img-responsive" />
 			</div>
 			<div class="col-md-8">
+			{% endif %}
 				<div id="external-links"{% if include.blog == true %} class="blog" {% endif %}>
 					<a href="/blog" title="Blog" target="_blank">
 						<img src="{{ site.url }}/images/btn-blog.png" alt="Blog" />
@@ -26,7 +30,11 @@
 <div id="redes" class="section">
 	<div class="container">
 		<div class="row">
+			{% if include.blog == true %}
+			<div class="col-xs-12 col-md-6 col-md-offset-3">
+			{% else %}
 			<div class="col-xs-12 col-md-6 col-md-offset-5">
+			{% endif %}
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="footer-logo text-center">

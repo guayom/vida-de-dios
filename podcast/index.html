@@ -13,6 +13,7 @@ title: "Podcast"
       <h1>{{ post.title }}</h1>
       <a href="{{ post.url }}" class="btn btn-border">Leer Más...</a>
     </div>
+    {% include social_links.html blog=true %}
   </div>
 {% endfor %}
 <div class="container-fluid blog">

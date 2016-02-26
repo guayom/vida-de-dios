@@ -1,5 +1,9 @@
 <div class="social-links hidden-xs">
+	{% if include.blog == true %}
+	<div>
+	{% else %}
 	<div data-spy="affix" data-offset-top="840" data-offset-bottom="200">
+	{% endif %}
 		<ul class="list-unstyled">
 			<li>
 				<a href="http://facebook.com/{{ site.facebook }}" title="Vida de Dios en la Empresa en Facebook" target="_blank">
