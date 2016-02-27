@@ -10,6 +10,12 @@
 @import "slick";
 @import "slick-theme";
 
+// Variables
+// -------------------------
+$verde: #81c79b;
+$salmon: #ee9398;
+$celeste: #6ecff6;
+
 //Propio
 .site-title img{
 	padding:20px 20px 20px 0;
@@ -378,6 +384,12 @@ p.big{
 		position: absolute;
 		top: 150px;
 		right: 0;
+	}
+	&.verde{
+		 background: $verde;
+	}
+	&.salmon{
+		 background: $salmon;
 	}
 }
 .blog{
