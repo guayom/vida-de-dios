@@ -4,8 +4,8 @@ title:  "Alcanzando Mis Sueños del 2016"
 date:   2015-12-01 08:22:03
 categories: blog
 excerpt_separator: <!--more-->
-thumbnail: suenos-2016-th.jpg
-full-image: suenos-2016.jpg
+thumbnail: suenos-thumbnail.jpg
+full-image: suenos.jpg
 color: salmon
 ---
 Todas las personas deseamos alcanzar el éxito, unos lo desean y pasan toda su vida parados ahí, esperando el éxito, por ejemplo los jugadores de lotería.  

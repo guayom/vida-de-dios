@@ -4,8 +4,8 @@ title:  "La actitud en la empresa"
 date:   2015-11-05 08:22:03
 categories: blog
 excerpt_separator: <!--more-->
-thumbnail: 2015-11-05-1-th.jpg
-full-image: 2015-11-05-1.jpg
+thumbnail: actitud-en-la-empresa-thumbnail.jpg
+full-image: actitud-en-la-empresa.jpg
 ---
 Soy un convencido que Dios nos equipa a cada uno para ser exitosos. Pero al no tener claro como manejar nuestra actitud, hace que nosotros mismos obstaculicemos proyectos propios, creando limites en la mente, postergando decisiones o, simplemente ponemos la excusa mas común como decir no tengo tiempo o dinero.
 
