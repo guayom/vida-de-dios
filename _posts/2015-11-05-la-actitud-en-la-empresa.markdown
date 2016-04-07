@@ -22,13 +22,13 @@ La forma que utilizamos para levantarnos marca el día que apenas comienza, debe
 
 ## ¿Qué determina la actitud?
 
-Este versículo está en Gálatas 6:7: “Todo lo que el hombre sembrare, también eso segará”. Individualmente somos responsables por nuestra visión de la vida y lo que construyamos de ella, como dice esta porción de la Biblia, lo que sembremos con buena actitud, lo segaremos con buena actitud. 
+Este versículo está en Gálatas 6:7: “Todo lo que el hombre sembrare, también eso segará”. Individualmente somos responsables por nuestra visión de la vida y lo que construyamos de ella, como dice esta porción de la Biblia, lo que sembremos con buena actitud, lo segaremos con buena actitud.
 
 John D, Rockefeller dijo una vez: “Pagaré más por la habilidad de tratar con la gente, que por cualquier otra habilidad bajo el sol”. La diferencia entre la gente es muy pequeña pero esa pequeña diferencia es la actitud. Una buen actitud nos lleva el éxito y una mala actitud nos lleva a el fracaso.
 
-Para el ejercito de Israel Goliat era tan grande que nunca lo matarían, mientras que para David con una actitud positiva decía: Es tan grande que no puedo fallar. 
+Para el ejercito de Israel Goliat era tan grande que nunca lo matarían, mientras que para David con una actitud positiva decía: Es tan grande que no puedo fallar.
 
-## Tres consejos para una actitud correcta: 
+## Tres consejos para una actitud correcta:
 
 ### 1- La actitud determina el éxito o el fracaso en nosotros.
 Nuestra actitud es la fuerza principal que determinará si triunfamos o fracasamos. Simultáneamente, la actitud prepara a unos mientras despedaza a otros, esto debe ser suficiente para que le demos importancia verdadera en nuestras vida empresarial.
@@ -39,8 +39,3 @@ La vida se compone de adversidad en nuestro camino empresarial y por momentos, s
 ### 3- Una buena actitud hoy es garantía de un mejor mañana.
 Una actitud correcta nos pone en posición de esperar un mejor futuro y de disfrutar un mejor presente. Una persona con actitud positiva comprende que el viaje al éxito empresarial es tan placentero como el lugar de llegada.
 Una buena actitud desarrollada como hábito de vida, nos pone en un lugar de gran potencial para alcanzar el éxito como empresarios.
-Que la vida de Dios este sobre su Empresa.
-
-Gracias,
-
-Su amigo Carlos Cordero

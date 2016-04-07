@@ -18,10 +18,9 @@ title: Blog
   </div>
 {% endfor %}
 <div class="container-fluid blog">
-	<div class="row">
-		<div class="col-xs-12 col-md-4 col-lg-3 text-center"></div>
+	<div class="row grid">
 	{% for post in site.categories.blog offset:1 %}
-		<div class="col-xs-12 col-md-4 col-lg-3 text-center">
+		<div class="col-xs-12 col-md-4 col-lg-3 text-center post-container grid-item">
 			<div class="blog-post-container {{ post.color }}">
 				<img src="/images/blog/{{ post.thumbnail }}" class="img-responsive" alt="{{ post.title }}" />
 				<div>
@@ -53,3 +52,14 @@ title: Blog
 	{% endfor %}
 	</div>
 </div>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript">
+var $container = $('.grid');
+$container.imagesLoaded( function () {
+  $container.masonry({
+    columnWidth: '.grid-item',
+    itemSelector: '.grid-item'
+  });
+});
+</script>
